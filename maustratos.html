@@ -1,44 +1,148 @@
+<!DOCTYPE html>
 <html class="scroll-smooth" lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="Style.css" />
     <title>Denúncia Maus-Tratos a Animais</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-  </head>
+    <style>
 
+
+      .scroll-smooth { scroll-behavior: smooth; }
+      .bg-white { background-color: #fff; }
+      .bg-\[\#4B4B7A\] { background-color: #4B4B7A; }
+      .bg-\[\#E2A3A3\] { background-color: #E2A3A3; }
+
+      /* Flexbox */
+      .flex { display: flex; }
+      .flex-1 { flex: 1 1 0%; }
+      .flex-col { flex-direction: column; }
+      .justify-center { justify-content: center; }
+      .justify-between { justify-content: space-between; }
+      .items-center { align-items: center; }
+      .gap-8 { gap: 2rem; }
+
+
+      .max-w-xs { max-width: 20rem; }
+      .max-w-\[180px\] { max-width: 180px; }
+      .max-w-full { max-width: 100%; }
+      .max-w-5xl { max-width: 64rem; }
+      .mx-auto { margin-left: auto; margin-right: auto; }
+      .mt-1 { margin-top: 0.25rem; }
+      .mt-8 { margin-top: 2rem; }
+      .mt-10 { margin-top: 2.5rem; }
+      .mb-6 { margin-bottom: 1.5rem; }
+      .mb-8 { margin-bottom: 2rem; }
+      .mb-10 { margin-bottom: 2.5rem; }
+      .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+      .px-4 { padding-left: 1rem; padding-right: 1rem; }
+      .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+      .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+      .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+
+  
+      .text-\[\#4B4B7A\] { color: #4B4B7A; }
+      .text-\[\#D92B2B\] { color: #D92B2B; }
+      .text-white { color: #fff; }
+      .text-center { text-align: center; }
+      .text-right { text-align: right; }
+      .text-\[0\.625rem\] { font-size: 0.625rem; }
+      .text-\[0\.75rem\] { font-size: 0.75rem; }
+      .text-\[1\.25rem\] { font-size: 1.25rem; }
+      .text-\[1\.75rem\] { font-size: 1.75rem; }
+      .text-\[3\.5rem\] { font-size: 3.5rem; }
+      .font-bold { font-weight: 700; }
+      .font-extrabold { font-weight: 800; }
+      .leading-none { line-height: 1; }
+      .leading-tight { line-height: 1.25; }
+
+
+      .rounded-xl { border-radius: 0.75rem; }
+      .rounded-full { border-radius: 9999px; }
+      .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+
+      .select-none { user-select: none; }
+
+
+      @media (min-width: 640px) {
+        .sm\:flex-row { flex-direction: row; }
+        .sm\:px-0 { padding-left: 0; padding-right: 0; }
+        .sm\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .sm\:max-w-sm { max-width: 24rem; }
+        .sm\:max-w-3xl { max-width: 48rem; }
+        .sm\:max-w-none { max-width: none; }
+        .sm\:w-1\/2 { width: 50%; }
+        .sm\:mb-0 { margin-bottom: 0; }
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+      }
+
+      
+      .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+         flex-wrap: wrap;
+      }
+      .nav-item {
+        color: #4B4B7A; 
+        text-decoration: none;
+        font-weight: 500;
+      }
+    </style>
+  </head>
   <body class="bg-white text-[#4B4B7A]">
-       <header>
-  <div class="nav">
-    <a href="Inicial.html" a>
-      <img src="Assets/logo roxa (1).png" alt="Ícone de pata" width="50">
-      <a href="Animais.Html" class="nav-item">ANIMAIZINHOS</a>
-      <a href="Doação.Html" class="nav-item">DOAÇÕES</a>
-      <a href="Lar.Html" class="nav-item">OFERECER LAR TEMPORÁRIO</a>
-      <a href="frenquentes.html" class="nav-item">PERGUNTAS FREQUENTES</a>
-      <a href="maustratos.html" class="nav-item">MAUS TRATOS</a>
-  </div>
-</header>
+    <header>
+      <div class="nav">
+        <a href="Inicial.html">
+          <img src="Assets/logo roxa (1).png" alt="Ícone de pata" width="50" />
+        </a>
+        <a href="Animais.Html" class="nav-item">ANIMAIZINHOS</a>
+        <a href="Doação.Html" class="nav-item">DOAÇÕES</a>
+        <a href="Lar.Html" class="nav-item">OFERECER LAR TEMPORÁRIO</a>
+        <a href="frenquentes.html" class="nav-item">PERGUNTAS FREQUENTES</a>
+        <a href="maustratos.html" class="nav-item">MAUS TRATOS</a>
+      </div>
+    </header>
 
     <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-      <p class="text-center font-bold text-[1.25rem] leading-tight mb-10 px-2 sm:px-0">
+      <h1 class="text-center text-[#4B4B7A] text-[1.75rem] font-bold leading-none select-none mb-8">
+        MAUS-TRATOS A ANIMAIS
+      </h1>
+      
+      <p
+        class="text-center font-bold text-[1.25rem] leading-tight mb-10 px-2 sm:px-0"
+      >
         Se você presenciar ou suspeitar de maus-<br />
         tratos a animais, denuncie. Para isso, você<br />
         pode seguir os seguintes passos:
       </p>
 
-      
-<div class="flex flex-col sm:flex-row justify-center items-center gap-8 mb-10">
-  <img src="Assets/Rian 1.jpeg" alt="Imagem ilustrativa 1" class="max-w-xs sm:max-w-sm rounded-xl shadow-lg" />
-  <img src="Assets/Rian 2.jpeg" alt="Imagem ilustrativa 2" class="max-w-xs sm:max-w-sm rounded-xl shadow-lg" />
-</div>
+      <div
+        class="flex flex-col sm:flex-row justify-center items-center gap-8 mb-10"
+      >
+        <img
+          src="Assets/Rian 1.jpeg"
+          alt="Imagem ilustrativa 1"
+          class="max-w-xs sm:max-w-sm rounded-xl shadow-lg"
+        />
+        <img
+          src="Assets/Rian 2.jpeg"
+          alt="Imagem ilustrativa 2"
+          class="max-w-xs sm:max-w-sm rounded-xl shadow-lg"
+        />
+      </div>
 
-
-      <section class="flex flex-col sm:flex-row justify-center gap-8 mb-8 px-2 sm:px-0">
+      <section
+        class="flex flex-col sm:flex-row justify-center gap-8 mb-8 px-2 sm:px-0"
+      >
         <div class="flex-1 max-w-[180px] sm:max-w-none">
           <p class="text-[3.5rem] font-extrabold leading-none select-none">1-</p>
           <p class="text-[0.625rem] font-bold leading-tight mt-1">
@@ -71,24 +175,35 @@
         </div>
       </section>
 
-
-
-      <p class="bg-[#E2A3A3] text-[#4B4B7A] text-[0.75rem] font-bold rounded-full py-1 px-4 text-center max-w-full sm:max-w-3xl mx-auto mb-10 select-none">
-        TORTURA - ABANDONO - ALIMENTAÇÃO INADEQUADA - CAUSAR DOR E SOFRIMENTO DESNECESSÁRIOS - USO DE ANIMAIS PARA TESTES SEM NECESSIDADE
+      <p
+        class="bg-[#E2A3A3] text-[#4B4B7A] text-[0.75rem] font-bold rounded-full py-1 px-4 text-center max-w-full sm:max-w-3xl mx-auto mb-10 select-none"
+      >
+        TORTURA - ABANDONO - ALIMENTAÇÃO INADEQUADA - CAUSAR DOR E SOFRIMENTO
+        DESNECESSÁRIOS - USO DE ANIMAIS PARA TESTES SEM NECESSIDADE
       </p>
 
-      <section class="flex flex-col sm:flex-row justify-between text-[0.625rem] font-bold leading-tight mb-10 px-2 sm:px-0">
+      <section
+        class="flex flex-col sm:flex-row justify-between text-[0.625rem] font-bold leading-tight mb-10 px-2 sm:px-0"
+      >
         <p class="sm:w-1/2 mb-6 sm:mb-0">
-          OS MAUS-TRATOS A ANIMAIS SÃO UM CRIME PREVISTO PELA LEI Nº 9.605/98, CONHECIDA<br />
-          COMO A "LEI DE CRIMES AMBIENTAIS". ESTA LEI VISA PROTEGER OS ANIMAIS DE QUALQUER<br />
-          TIPO DE CRUELDADE, ABUSO OU NEGLIGÊNCIA. MAUS-TRATOS PODEM INCLUIR ATOS COMO:
+          OS MAUS-TRATOS A ANIMAIS SÃO UM CRIME PREVISTO PELA LEI Nº 9.605/98,
+          CONHECIDA<br />
+          COMO A "LEI DE CRIMES AMBIENTAIS". ESTA LEI VISA PROTEGER OS ANIMAIS DE
+          QUALQUER<br />
+          TIPO DE CRUELDADE, ABUSO OU NEGLIGÊNCIA. MAUS-TRATOS PODEM INCLUIR ATOS
+          COMO:
         </p>
         <p class="sm:w-1/2 text-right">
-          A LEGISLAÇÃO PREVÊ QUE QUEM COMETER QUALQUER ATO DE CRUELDADE CONTRA ANIMAIS<br />
-          PODE SER PUNIDO COM PENAS DE DETENÇÃO DE 3 MESES A 1 ANO, ALÉM DE MULTA.<br />
-          É IMPORTANTE LEMBRAR QUE TODOS OS ANIMAIS, SEJAM DOMÉSTICOS, DE RUA OU SELVAGENS,<br />
-          MERECEM RESPEITO E DIGNIDADE. A PROTEÇÃO AOS ANIMAIS É UM DIREITO DE TODOS, E A<br />
-          CONSCIENTIZAÇÃO É FUNDAMENTAL PARA EVITAR QUE ESSES CRIMES ACONTEÇAM.
+          A LEGISLAÇÃO PREVÊ QUE QUEM COMETER QUALQUER ATO DE CRUELDADE CONTRA
+          ANIMAIS<br />
+          PODE SER PUNIDO COM PENAS DE DETENÇÃO DE 3 MESES A 1 ANO, ALÉM DE
+          MULTA.<br />
+          É IMPORTANTE LEMBRAR QUE TODOS OS ANIMAIS, SEJAM DOMÉSTICOS, DE RUA OU
+          SELVAGENS,<br />
+          MERECEM RESPEITO E DIGNIDADE. A PROTEÇÃO AOS ANIMAIS É UM DIREITO DE
+          TODOS, E A<br />
+          CONSCIENTIZAÇÃO É FUNDAMENTAL PARA EVITAR QUE ESSES CRIMES
+          ACONTEÇAM.
         </p>
       </section>
 
@@ -105,4 +220,3 @@
     </footer>
   </body>
 </html>
-
