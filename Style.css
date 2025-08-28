@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #545384;
+    padding: 5px;
+    justify-content: space-between;
+
+}
+
+.nav img {
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.nav-item {
+    background-color: #EAEAF1;
+    border-radius: 5px;
+    padding: 10px 60px;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #545384;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+.nav-item:hover {
+    background-color: #D3D3E2;
+}
+
+p {
+    color: #545384;
+}
+
+h2 {
+    color: #545384;
+}
+
+.Conteiner-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza os cards na horizontal */
+}
+
+.product {
+    width: 250px; /* Largura fixa para os cards */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.donation-basket h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.donation-info h2 {
+     text-align: center;
+    padding: 40px;
+}
+
+.OBRIGADO p {
+    text-align: center;
+    padding: 10px;
+}
+
+.imagens-lado-a-lado {
+    display: flex;
+    gap: 20px; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.OBRIGADO img {
+    width: 500px;
+    padding: 100px;
+}
+
+.rodape {
+    background-color: #545384;
+    padding: 50px;
+}
+
+.rodape p {
+    color: white;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.card {
+  background: #f6f6f6;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #4b4b84;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.botao {
+  background-color: #4b4b84;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #36365d;
+}
+
+.imagem-cachorro {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    object-fit: cover;
+    object-position: 90%;
+    margin-top: 3%;
+    border: 5px solid #545384;
+}
+
+.texto-com-fundo {
+    background-color: #545384;
+    padding: 20px;
+    margin: 30px 0 30px 30px;
+    max-width: 800px;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+}
+
+.maria-vitoria {
+    background-color: #545384;
+    padding: 20px;
+    margin: 30px 30px 30px;
+    max-width: fit-content;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-geral {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.coluna-textos {
+    flex: 2;
+}
+
+.noticias-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #4e3b7c;
+    color: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .titulo-noticias {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #7f6db0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .noticia {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .noticia img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    object-fit: fill;
+  }
+
+
